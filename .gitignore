@@ -1,0 +1,15 @@
+# Ignore environment files
+dev.env
+*.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Node.js dependencies and build artifacts
+frontend/node_modules/
+frontend/dist/
+
+# Ignore Docker-related files
+*.log
+docker-compose.override.yml
